@@ -12,7 +12,7 @@ highlight_theme = "dracula"
 [extra]
 toc = false
 use_cdn = false
-favicon = "/icon/favicon.png"
+favicon = "/icon/favicon.ico"
 theme = "auto"      
 
 menu = [
