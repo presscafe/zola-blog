@@ -1,0 +1,10 @@
+https://blog-6wn.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://thelazysre.com/*
+  X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    Permissions-Policy: document-domain=()
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; script-src 'strict-dynamic' thelazysre.com 'self' http: https:; style-src 'self' thelazysre.com 'unsafe-inline' 'strict-dynamic';; base-uri 'none'; frame-ancestors 'none'; upgrade-insecure-requests; form-action 'none';
+  X-XSS-Protection: 1; mode=block
