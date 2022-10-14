@@ -1,0 +1,30 @@
+base_url = "https://thelazysre.com"
+title = "The Lazy SRE"
+build_search_index = false
+generate_feed = true
+compile_sass = true
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "dracula"
+
+[extra]
+toc = false
+use_cdn = false
+favicon = "/icon/favicon.png"
+theme = "auto"      
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/whoami", url = "/whoami", weight = 2 },
+]
+
+socials = [
+    { name = "twitter", url = "https://twitter.com/thelazysre", icon = "twitter" },
+]
+
+custom_css = []
+
+[extra.analytics]
+enabled = false
