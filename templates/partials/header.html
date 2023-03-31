@@ -49,15 +49,15 @@
     {# Theme #}
     {% set theme = config.extra.theme | default(value="light") %}
     {% if theme == "dark" %}
-        <link rel="stylesheet" type="text/css" href="{{ get_url(path="theme/dark.css") }}"/>
+        <link rel="stylesheet" type="text/css" nonce="xD9oZ5tlpKtdqSa" href="{{ get_url(path="theme/dark.css") }}"/>
     {% elif theme == "light" %}
-        <link rel="stylesheet" type="text/css" href="{{ get_url(path="theme/light.css") }}"/>
+        <link rel="stylesheet" type="text/css" nonce="xD9oZ5tlpKtdqSa" href="{{ get_url(path="theme/light.css") }}"/>
     {% elif theme == "auto" %}
-        <link rel="stylesheet" type="text/css" href="{{ get_url(path="theme/light.css") }}"/>
-        <link rel="stylesheet" type="text/css" href="{{ get_url(path="theme/dark.css") }}" media="(prefers-color-scheme: dark)"/>
+        <link rel="stylesheet" type="text/css" nonce="xD9oZ5tlpKtdqSa" href="{{ get_url(path="theme/light.css") }}"/>
+        <link rel="stylesheet" type="text/css" nonce="xD9oZ5tlpKtdqSa" href="{{ get_url(path="theme/dark.css") }}" media="(prefers-color-scheme: dark)"/>
     {% endif %}
 
-    <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css") }} />
+    <link rel="stylesheet" type="text/css" media="screen" nonce="xD9oZ5tlpKtdqSa" href={{ get_url(path="main.css") }} />
 
 
     {% if config.extra.stylesheets %}
