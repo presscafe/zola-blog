@@ -7,5 +7,5 @@ https://thelazysre.com/*
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
     Permissions-Policy: document-domain=()
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; script-src 'strict-dynamic' thelazysre.com 'self' http: https:; style-src 'self' thelazysre.com 'nonce-xD9oZ5tlpKtdqSa' 'nonce-xD9oZ5tlpKtdqSb'; base-uri 'none'; frame-ancestors 'none'; upgrade-insecure-requests; form-action 'none';
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; script-src 'strict-dynamic' thelazysre.com 'self' http: https:; style-src 'self' thelazysre.com 'unsafe-inline'; base-uri 'none'; frame-ancestors 'none'; upgrade-insecure-requests; form-action 'none';
   X-XSS-Protection: 1; mode=block
